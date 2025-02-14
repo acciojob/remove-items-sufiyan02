@@ -1,9 +1,11 @@
 //your JS code here. If required.
-document.getElementById("input[type='button']").addEventListener('click',()=>{
-	let s = document.getElementById('colorSelect');
-	let so = select.options[select.selectedIndex];
+let btn = document.querySelector("input[type='button']")
+	btn.addEventListener('click',()=>{
+		
+		let s = document.getElementById('colorSelect');
+		let so = select.options[select.selectedIndex];
 
-	if(so){
-		so.remove();
-	}
+		if(so){
+			so.remove();
+		}
 })
